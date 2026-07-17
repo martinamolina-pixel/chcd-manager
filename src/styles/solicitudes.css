@@ -1,0 +1,120 @@
+.solicitud-container {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.solicitud-header {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.solicitud-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-main);
+}
+
+.form-group select, .form-group input {
+  padding: 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #f8fafc;
+}
+
+.form-group select:focus, .form-group input:focus {
+  border-color: var(--primary-color);
+  background-color: white;
+}
+
+/* Sección de Vista Previa */
+.preview-stock-section {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  margin-top: 2rem;
+}
+
+.preview-stock-section h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+.formula-info {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.preview-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.preview-table th, .preview-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.preview-table th {
+  background: #f1f5f9;
+  color: var(--text-main);
+}
+
+.badge-unit {
+  background: #e2e8f0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.highlight-total {
+  font-weight: bold;
+  color: var(--danger);
+  font-size: 1.1rem;
+}
+
+.btn-submit-solicitud {
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.btn-submit-solicitud:hover {
+  filter: brightness(0.9);
+}

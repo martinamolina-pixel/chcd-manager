@@ -1,18 +1,33 @@
-function Header() {
-  return (
-    <header className="header">
-      <div>
-        <h1>CHCD Manager</h1>
-        <p>
-          Centro de Habilidades Clínicas y Disciplinares
-        </p>
-      </div>
+const Header = () => {
 
-      <div>
-        <span>Administradora</span>
-      </div>
-    </header>
-  )
+return (
+
+<header className="header">
+
+<div>
+<h3>
+Centro de Habilidades Clínicas y Disciplinares
+</h3>
+
+<p>
+Sistema de gestión académica y operativa
+</p>
+</div>
+
+
+<div className="user">
+
+Martina
+<br/>
+Coordinación de Laboratorios
+
+</div>
+
+
+</header>
+
+)
+
 }
 
-export default Header
+export default Header;
