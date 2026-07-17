@@ -1,14 +1,11 @@
+import Header from './components/Header'
 import './App.css'
 
 function App() {
   return (
     <div className="app">
-      <header className="header">
-        <h1>CHCD Manager</h1>
-        <p>
-          Sistema de gestión de insumos para campos clínicos
-        </p>
-      </header>
+
+      <Header />
 
       <main className="dashboard">
 
@@ -48,6 +45,7 @@ function App() {
         </section>
 
       </main>
+
     </div>
   )
 }
